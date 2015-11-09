@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10sp"
+     >
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/linear_layout">
+
+        <TextView
+            android:id="@+id/typeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="15dip"
+            android:text="@string/type"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="15dip"
+            android:layout_toRightOf="@+id/typeText"
+             />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/rel1">
+
+        <TextView
+            android:id="@+id/dateText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="12dip"
+            android:text="@string/date"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="12dip"
+            android:layout_toRightOf="@+id/dateText"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel1"
+        android:layout_alignParentRight="true"
+        >
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="12dip"
+            android:text="@string/name"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="12dip"
+            android:layout_toRightOf="@+id/nameText"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/linear_layout"
+        android:layout_below="@+id/rel2">
+
+        <TextView
+            android:id="@+id/amountText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="15dip"
+            android:text="@string/amount"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dip"
+            android:paddingLeft="6dip"
+            android:textSize="15dip"
+            android:layout_toRightOf="@+id/amountText"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

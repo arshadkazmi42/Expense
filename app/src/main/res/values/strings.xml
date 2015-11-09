@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Expense</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="spinner">Spinner</string>
+    <string name="exptype">Expense Type</string>
+    <string name="submit">Submit</string>
+
+    <string name="addExpense">Add Expense</string>
+    <string name="viewExpense">View Expense</string>
+
+    <string name="expenseManager">Expense Manager</string>
+    <string name="view">View</string>
+
+    <string name="viewall">View All</string>
+    <string name="type">Type:</string>
+    <string name="amount">Amount:</string>
+    <string name="name">Name:</string>
+    <string name="date">Date:</string>
+
+</resources>
